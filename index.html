@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Super duper joc</title>
+		<link rel="shortcut icon" href="">
+        <script src="../socket.io/socket.io.js"></script>
+		
+		<style>
+			body {
+				background-color: #e6ffe6;
+			}
+
+			h1 {
+				color: black;
+				text-align: center;
+			}
+
+			p {
+				font-family: verdana;
+				font-size: 20px;
+			}
+			canvas {
+				margin-left: 75px;
+				margin-right: 75px;
+				background-color: white;
+				height:560px;
+				border:1px solid #000;
+				inline-size: -webkit-fill-available;
+			}
+		</style>
+		
+    </head>
+	
+    <body>
+        <h1>Cel mai cel joc</h1>
+        
+		<canvas id="canvas"></canvas>
+        <script src="/static/game.js"></script>
+    </body>
+</html>
