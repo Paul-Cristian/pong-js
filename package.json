@@ -1,0 +1,31 @@
+{
+  "name": "pong-js",
+  "version": "1.0.0",
+  "description": "Pong game in Node.js",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Paul-Cristian/pong-js.git"
+  },
+  "keywords": [
+    "pong",
+    "js",
+    "game"
+  ],
+  "author": "Paul Brînză, Mircea Dobreanu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Paul-Cristian/pong-js/issues"
+  },
+  "homepage": "https://github.com/Paul-Cristian/pong-js#readme"
+}
